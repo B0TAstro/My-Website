@@ -1,60 +1,59 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | Tom Boullay" description="About Tom Boullay">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
 				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				tagline="Learn more about myself and my background, as well as my skills."
 			>
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					src="/assets/about.jpg"
+					alt="Tom Boullay smilling"
 				/>
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">About me</h2>
 				<div class="content">
+					<p>Japanese culture</p>
+					<p>Video games and esports</p>
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Playing soccer, volleyball, and cycling in the forest.
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>BAC+3 Multimedia and Internet Professions (MMI),</p>
+					<p>
+						1st year of Bachelor's in Computer Science with an
+						International Option,
+					</p>
+					<p>
+						General Baccalaureate with a focus on NSI & Mathematics
+					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<p>Autonomy, Versatility, Curious,</p>
+					<p>Creativity, Proactivity, Teamwork,</p>
+					<p>
+						Agile Project Management, Fluent in French and English
+					</p>
 				</div>
 			</section>
+			<a href="/src/CV.pdf" target="_blank">My Résumé</a>
 		</main>
 
 		<ContactCTA />
